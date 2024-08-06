@@ -739,6 +739,14 @@ a {
   padding: 30px 0;
 }
 
+.category-main-section p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.category-main-section .product-name {
+  color: #000;
+}
+
 .filter-parent {
   border: 1px solid #10101021;
   border-radius: 20px;
@@ -758,6 +766,7 @@ a {
   margin: 0;
   font-size: 20px;
   font-weight: 700;
+  color: #000;
 }
 
 .tittle.parent {
@@ -774,6 +783,7 @@ a {
 .cat-list li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .cat-list p {
